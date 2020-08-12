@@ -1,4 +1,4 @@
-html{
+html{ /* Default settings for whole page */
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
   box-sizing: border-box;
@@ -6,7 +6,7 @@ html{
   width: 100%;
  
 }
-header, footer{
+header, footer{ 
   background-color: rgb(227, 253, 243);
   width:750;
 }
@@ -19,7 +19,7 @@ article{
   margin: 2% 20%;
   padding: 10px;
 }
-.btn{
+.btn{ /*spaces out navigation menu items*/
   display: inline-block;
   font-size: 16px;
   text-align: center;
@@ -30,7 +30,7 @@ article{
 
 }
 
-a:link{color: #00241B;}
+a:link{color: #00241B;} /*links*/
 a:visited{color:rgb(2, 126, 95);}
 a:hover{color: rgb(3, 8, 7);}
 a:active{color:lavenderblush;}
